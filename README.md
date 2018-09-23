@@ -21,7 +21,7 @@ java course for testing
 11. Annotations
 12. Reflection
 13. Threading
-14. Unit Testing & test grameworks(custom runners, mocking, subbing, custom rules)
+14. Unit Testing & test frameworks with advance concepts (custom runners, mocking, subbing, custom rules)
 15. How to understand & use opensource Libraries 
 16. Selenium & UI testing library 
 17. Restassure & HTTP client 
