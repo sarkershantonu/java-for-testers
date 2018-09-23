@@ -9,10 +9,10 @@ java course for testing
 2. OOP & Principles , How OOP implemented in Java
 3. JVM architecture, Java built-in tools & support,  How code RUN inside JVM, GC algorithms. 
 4. Hello world how how it runs?Realitime JVM code execution monitoring. 
-5. Logics & conditions
-6. Packaging & OOP in Action
-7. 
-8. 
+5. Project Structure, Packaging, basic Java keywords & components. 
+6. OOP in Action (basic usages)
+7. OOP in Action (advance )
+8. Logics & conditions
 9. ? 
 10. 
 11. 
