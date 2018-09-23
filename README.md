@@ -5,17 +5,17 @@ java course for testing
 # Course Details
 
 # Class Distributions
-1. Java & History 
-2. OOP & Principles 
-3. How OOP implemented in Java
-4. What is JAVA? 
-5. Java built-in tools & support
-6. JVM architecture 
-7. How code RUN inside JVM
-8. GC algorithms 
-9. Hello world how how it runs? 
-10. Logics & conditions
-11. Packaging & OOP in Action
+1. What is JAVA? & History 
+2. OOP & Principles , How OOP implemented in Java
+3. JVM architecture, Java built-in tools & support,  How code RUN inside JVM, GC algorithms. 
+4. Hello world how how it runs?
+5. Logics & conditions
+6. Packaging & OOP in Action
+7. 
+8. 
+9. ? 
+10. 
+11. 
 12. Annotations 
 13. Reflection
 14. Testing & test grameworks
