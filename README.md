@@ -2,21 +2,21 @@
 
 java course for testing
 
-# Class
+# Class Plan
 - 2 hours class with example
 - Question/answer 30 min
 - Home work discuess 30 min
 
 # Course/Class Topics
-1. What is JAVA? & History 
-2. OOP & Principles , How OOP implemented in Java
-3. JVM architecture, Java built-in tools & support,  How code RUN inside JVM, GC algorithms. 
-4. Hello world how how it runs?Realitime JVM code execution monitoring. 
-5. Project Structure, Packaging, basic Java keywords & components. 
-6. OOP in Action (basic usages)
-7. OOP in Action (advance & best practices), Java Object details. 
-8. Logics & conditions
-9. Exception Handling, custom exceptions.  
+1. What is JAVA? & History . OOP & Principles , How OOP implemented in Java 
+2. Hello world how how it runs?Realitime JVM code execution monitoring. 
+3. JVM architecture, Java built-in tools & support, How code RUN inside JVM, GC algorithms. 
+4. Project Structure, Packaging, basic Java keywords & components. 
+5. OOP in Action (basic usages)
+6. OOP in Action (advance & best practices), Java Object details. 
+7. Logics & conditions
+8. Exception Handling, custom exceptions.  
+9. How to use JDK libraries( String, Collection,Date/LocalDate)
 10. Generics
 11. Annotations
 12. Reflection
@@ -30,10 +30,7 @@ java course for testing
 20. Reporting for different stakeholders
 
 # Side Topics (on Demand)
-- String 
-- Collections
 - I/O 
 - File Handling (txt, xls xlsx) 
-- Date/LocalDate
 - Logging with different systems
 - JDBC with different DB
