@@ -11,14 +11,13 @@ java course for testing
 4. Hello world how how it runs?Realitime JVM code execution monitoring. 
 5. Project Structure, Packaging, basic Java keywords & components. 
 6. OOP in Action (basic usages)
-7. OOP in Action (advance )
+7. OOP in Action (advance & best practices), Java Object details. 
 8. Logics & conditions
-9. ? 
-10. 
-11. 
-12. Annotations 
-13. Reflection
-14. Testing & test grameworks
+9. Exception Handling, custom exceptions.  
+10. Generics
+11. Annotations
+12. Reflection
+13. Unit Testing & test grameworks
 16. Selenium & UI testing library 
 17. Restassure 
 18. How to understand & use opensource Libraries 
