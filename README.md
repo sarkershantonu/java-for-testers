@@ -18,7 +18,10 @@ java course for testing
 //7. Logics & conditions
 
 8. Exception Handling, custom exceptions, Logging basics. 
-9. How to use JDK libraries( String, Collection,Date/LocalDate)
+9. How to use JDK libraries
+- String
+- Date/LocalDate)
+- Collection
 10. Generics
 11. Annotations
 12. Reflection
