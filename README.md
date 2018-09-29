@@ -13,9 +13,9 @@ java course for testing
 3. JVM architecture, Java built-in tools & support, How code RUN inside JVM, GC algorithms. 
 4. Project Structure, Packaging, basic Java keywords & components. 
 5. OOP in Action (basic usages)
-6. OOP in Action (advance & best practices), Java Object details. 
-7. Logics & conditions
-8. Exception Handling, custom exceptions.  
+6. OOP in Action (advance & best practices), Java Object details, enamuration, autoboxing. 
+//7. Logics & conditions
+8. Exception Handling, custom exceptions, Logging basics. 
 9. How to use JDK libraries( String, Collection,Date/LocalDate)
 10. Generics
 11. Annotations
