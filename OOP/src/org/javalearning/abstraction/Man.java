@@ -18,7 +18,6 @@ public class Man {
 	
 	
 	
-	
 	void work() {
 		System.out.println("I am working ");
 	}
