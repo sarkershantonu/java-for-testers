@@ -39,3 +39,8 @@ java course for testing
 - File Handling (txt, xls xlsx) 
 - Logging with different systems
 - JDBC with different DB
+
+# Trello 
+- https://trello.com/b/nAycuMgl/java-for-testers
+
+
