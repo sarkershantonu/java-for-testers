@@ -11,10 +11,26 @@ java course for testing
 1. What is JAVA? & History . OOP & Principles , How OOP implemented in Java 
 2. Hello world how how it runs?Realitime JVM code execution monitoring. 
 3. JVM architecture, Java built-in tools & support, How code RUN inside JVM, GC algorithms. 
+ - Jvisual VM
+ - G1 GC/Concurrent GC
+ - JMC
+ - Jstate
 4. Project Structure, Packaging, basic Java keywords & components. 
-5. OOP in Action (basic usages)
+ - IDE
+ - Runtime & Compilation
+ - Dev Tools around Java
+ - Packaging 
+ - Basic Java Keywords & meaning
+5. OOP in Basics 
+  - Class /object
+  - Class members
+  - Abstruction
 6. OOP in Action (advance & best practices), Java Object details, enamuration, autoboxing. 
-
+ - Inheritance (why & how), object construction
+ - Polymorphism (Runtime, Compile time)
+ - Overlading , Overriding, upper casting.
+ - Constructor chaining
+ 
 //7. Logics & conditions
 
 8. Exception Handling, custom exceptions, Logging basics. 
