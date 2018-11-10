@@ -37,7 +37,11 @@ java course for testing
 9. How to use JDK libraries
 - String
 - Date/LocalDate)
-- Collection
+9.1 Collection
+- What are those
+- How to use those
+- When & Why to use those
+
 10. Generics
 11. Annotations
 12. Reflection
