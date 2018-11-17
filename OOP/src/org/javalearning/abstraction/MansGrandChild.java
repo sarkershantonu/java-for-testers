@@ -7,7 +7,7 @@ public class MansGrandChild  extends Mans2ndChild{
 	}
 	
 	MansGrandChild(){
-		
+		super("Sajib");
 		System.out.println("I am MansGrandChild's Constractor ");
 	}
 

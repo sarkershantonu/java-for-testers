@@ -18,19 +18,25 @@ public abstract class Man {
 	// protected abstract void smoking();//virtual class ++
 
 	Man(String name_at_birth) {
-		// this();
+		this();
 		this.name = name_at_birth;
 		System.out.println("I am Man's Constractor with Name init");
 	}
 
 	Man(int age) {
+		this();
 		this.age = String.valueOf(age);
 	}
 	
 	Man() {
 		System.out.println("I am Man's Constractor ");
 	}
-
+	Man(int age,String name) {
+		this();				
+		System.out.println("I am Man's Multiple constractor");
+	}
+	
+	
 	void eat() {
 		System.out.println("I am eating ");
 	}
