@@ -22,7 +22,7 @@ public class SystemPrintRule extends TestWatcher {
 
     @Override
     protected void starting(Description description) {
-        System.out.println("টেস্ট সুরু হল >> ");
+        System.out.println("টেস্ট সুরু >> ");
         super.starting(description);
     }
 

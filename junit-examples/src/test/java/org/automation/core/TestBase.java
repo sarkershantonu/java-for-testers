@@ -13,8 +13,8 @@ import java.util.Properties;
 
 public abstract class TestBase {
     protected static Calculator aCalculator;
-    protected static int THREAD = 1;
-    protected static int TIMEOUT_MS = 1;
+    protected static long THREAD = 1;
+    protected static long TIMEOUT_MS = 1;
     protected static double DELTA = 0.001;
 
     @BeforeClass
@@ -45,7 +45,7 @@ public abstract class TestBase {
 
     private static void initConstants() {
         THREAD = Integer.valueOf(System.getProperty("junit.run.thread")).intValue();
-        TIMEOUT_MS = Integer.valueOf(System.getProperty("junit.timeout.default")).intValue() * 1000;
+        TIMEOUT_MS = Integer.valueOf(System.getProperty("junit.timeout.default")).intValue()*1000;
         DELTA = Double.valueOf(System.getProperty("junit.double.delta"));
     }
 
