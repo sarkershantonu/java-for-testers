@@ -1,6 +1,8 @@
 package org.automation.core;
 
 import org.automation.app.Calculator;
+import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 
@@ -17,9 +19,24 @@ public abstract class TestBase {
 
     @BeforeClass
     public static void commonSteps() throws IOException {
+        System.out.println("Before Class from TestBase");
         loadProperties();
         initConstants();
         aCalculator = new Calculator();
+    }
+
+    @AfterClass
+    public static void afterClass() throws IOException {
+        System.out.println("After Class from TestBase");
+    }
+
+    @Before
+    public void before() throws IOException {
+        System.out.println("Before from TestBase ");
+    }
+    @After
+    public void after() throws IOException {
+        System.out.println("After from TestBase");
     }
 
     public static void loadProperties() throws IOException {

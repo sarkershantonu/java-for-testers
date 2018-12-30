@@ -5,14 +5,36 @@ import org.automation.app.Calculator;
 import static org.junit.Assert.*;
 
 import org.automation.core.TestBase;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
+
+import java.io.IOException;
 
 public class TestAdditions extends TestBase {
+    @BeforeClass
+    public static void commonSteps2() throws IOException {
+        System.out.println("Before Class from TestAdditions ");
+    }
+    @BeforeClass
+    public static void commonSteps3() throws IOException {
+        System.out.println("Before Class from TestAdditions 3");
+    }
+    @AfterClass
+    public static void afterClass2() throws IOException {
+        System.out.println("After Class from TestAdditions");
+    }
 
+    @Before
+    public void before2() throws IOException {
+        System.out.println("Before from TestAdditions ");
+    }
+    @After
+    public void after2() throws IOException {
+        System.out.println("After from TestAdditions");
+    }
 
     @Test(timeout = 20L)
     public void testStringAddition() {
+        System.out.println("FROM TEST");
         String result = aCalculator.add("Java", "Training");
         assertEquals("String Addition failed", "JavaTraining", result);
     }
