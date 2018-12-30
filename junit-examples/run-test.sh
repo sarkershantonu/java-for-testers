@@ -1,0 +1,1 @@
+mvn -Dtest.suite=org.automation.suits.BetaTestSuite.class test
