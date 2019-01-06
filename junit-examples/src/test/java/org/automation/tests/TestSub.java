@@ -8,12 +8,13 @@ import org.junit.rules.Timeout;
 
 import java.io.IOException;
 
+
 import static org.junit.Assert.assertEquals;
 
 public class TestSub extends TestBase {
 
     @Rule
-    public Timeout watch = Timeout.millis(TIMEOUT_MS);
+    public Timeout watch = Timeout.millis(1);
     @Rule
     public TestWatcher watcher = new SystemPrintRule();
 
