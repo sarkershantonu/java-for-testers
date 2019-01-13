@@ -13,6 +13,13 @@
     <jdk.version>1.8</jdk.version>
     <junit.version>4.12</junit.version>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
         <plugin>
@@ -26,7 +33,4 @@
         </plugin>
         </plugins>
     </build>
-    <dependencies>
-
-    </dependencies>
 </project>
