@@ -53,6 +53,10 @@ java course for testing
 18. Maven/Gradle project architecture, repository , life cycle. 
 19. Git/SVN basics
 20. Reporting for different stakeholders
+21. Regular Expression
+- Matching 
+- Grouping
+- Literals 
 
 # Side Topics (on Demand)
 - I/O 
