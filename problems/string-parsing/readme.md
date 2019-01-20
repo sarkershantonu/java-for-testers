@@ -1,5 +1,16 @@
 # Find what kinds of words present.
 
+# Home work assignments
+- Arafat
+- Rony
+- Tanvir
+- Tushar
+- Tasnia
+- Sajib
+- Mamun
+- Rumki
+
+
 # Given Paragraph 
 - A pattern P is called a subsequence of Text T if the pattern preserves the relative ordering of characters within the text T and it might not appear in a continuous fashion. 
 - In mathematics, a subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.
