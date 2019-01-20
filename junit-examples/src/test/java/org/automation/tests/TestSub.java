@@ -14,7 +14,7 @@ import static org.junit.Assert.assertEquals;
 public class TestSub extends TestBase {
 
     @Rule
-    public Timeout watch = Timeout.millis(1);
+    public Timeout watch = Timeout.millis(200);
     @Rule
     public TestWatcher watcher = new SystemPrintRule();
 

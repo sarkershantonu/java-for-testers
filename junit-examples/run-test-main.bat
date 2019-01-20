@@ -1,0 +1,1 @@
+java -jar junit-examples-1.0-SNAPSHOT-tests.jar ./tests/test-classes.txt
