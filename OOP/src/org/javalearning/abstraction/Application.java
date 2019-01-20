@@ -3,6 +3,13 @@ package org.javalearning.abstraction;
 public class Application {
 
 	public static void main(String[] args) {
+				
+		//MansGrandChild aGc = new MansGrandChild();
+		//Man arafat = new Man("Arafat Mamun");
+		
+	}
+
+/*	public static void class2Main() {
 		Man tushar = new Man();
 		tushar.name="Goutom Chakrabarty";
 		
@@ -24,7 +31,7 @@ public class Application {
 		mamun.study();
 		mamun.drink();
 		mamun.eat();
-		mamun.drink();		
+		mamun.drink();
 	}
-
+*/
 }
