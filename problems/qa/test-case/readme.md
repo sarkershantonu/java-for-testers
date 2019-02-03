@@ -24,7 +24,7 @@ User can select in UI or send in API request :
 
 # Sample API call 
 
-{ "status": "ORDERED", "startDate": "01/16/2019", "endDate" : "03/17/2019", "id": "106094" }
+{ "status": "ORDERED", "startDate": "02/16/2019", "endDate" : "03/17/2019", "id": "106094" }
  
 # Sample Response 
 
