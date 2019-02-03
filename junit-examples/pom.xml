@@ -51,7 +51,9 @@
             <resource>
                 <directory>properties</directory>
             </resource>
-            <resource><directory>tests</directory></resource>
+            <resource>
+                <directory>tests</directory>
+            </resource>
         </resources>
         <plugins>
             <plugin>
@@ -110,37 +112,38 @@
                 <configuration>
                     <includes>
                         <include>
-                            ${test.suite}</include>
+                            ${test.suite}
+                        </include>
                     </includes>
                 </configuration>
             </plugin>
 
-           <!-- <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-failsafe-plugin</artifactId>
-                <version>${failsafe.version}</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>integration-test</goal>
-                            <goal>verify</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <includes>
-                        <include>
-                            ${test.suite}</include>
-                    </includes>
-                </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.apache.maven.surefire</groupId>
-                        <artifactId>surefire-junit47</artifactId>
-                        <version>${failsafe.version}</version>
-                    </dependency>
-                </dependencies>
-            </plugin>-->
+            <!-- <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-failsafe-plugin</artifactId>
+                 <version>${failsafe.version}</version>
+                 <executions>
+                     <execution>
+                         <goals>
+                             <goal>integration-test</goal>
+                             <goal>verify</goal>
+                         </goals>
+                     </execution>
+                 </executions>
+                 <configuration>
+                     <includes>
+                         <include>
+                             ${test.suite}</include>
+                     </includes>
+                 </configuration>
+                 <dependencies>
+                     <dependency>
+                         <groupId>org.apache.maven.surefire</groupId>
+                         <artifactId>surefire-junit47</artifactId>
+                         <version>${failsafe.version}</version>
+                     </dependency>
+                 </dependencies>
+             </plugin>-->
         </plugins>
     </build>
 </project>
