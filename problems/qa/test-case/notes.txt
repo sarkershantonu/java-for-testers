@@ -1,0 +1,35 @@
+{
+"status": "ORDERED", //A
+"startDate": "02/16/2019", //B
+"endDate" : "03/17/2019", //C
+"id": "106094" => fixed 
+}
+
+A - 4: Valid : "PLANNING","ORDERED","CANCEL"
+inValid : "!@#$%%^&*("
+
+B -5 : Valid : any date not past // feb -3
+invalid : 
+PAST
+leapyear date 
+invalid Format future date (MM/YYYY/DD)
+invalidCharacter : non neumeric 
+
+C -5
+
+D : valid : valid id, 
+invalid : 
+	invalid id, 
+	invalid character 
+---
+A 
+4c1
+B
+5c1
+C 
+5c1
+D 
+3c1
+---
+ABC => 4c1x5c1x5c1 =  4x5x5=100
+ABCD => 4c1x5c1x5c1x3c1 =  4x5x5x3=300
