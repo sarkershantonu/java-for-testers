@@ -18,7 +18,7 @@ In testing, there can be success/fail request based on data
 
 Conditions (fail/success): 
 1. event can't be restarted if it was cancelled. 
-2. Start/End date can be updated with past dates.
+2. Start/End date can't be updated with past dates.
 
 User can select in UI or send in API request : 
 
