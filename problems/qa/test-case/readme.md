@@ -10,7 +10,7 @@ In UPDATE GUI there are 3 selections
 - END Date > A calender date picker 
 
 You need to find 
-1. How many test cases can be created? 
+1. How many test cases can be created? (min, with all possible scenarios)
 2. Define those test cases 
 3. Which will be success and which will be failed
 
