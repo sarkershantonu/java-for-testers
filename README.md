@@ -40,12 +40,23 @@ java course for testing
 9.1 Collection
 - What are those
 - How to use those
-- When & Why to use those
+- When & Why to use which one
+- Own Collections
+- Interfaces 
+- Testing a collection
 
 10. Generics
+- Basic usages
+- Write generic code
 11. Annotations
+- How it works
+- How to use it
+- How to implement
 12. Reflection
+- What is reflection API
+- How to use reflection api to write generic test cases
 13. Threading
+
 14. Unit Testing & test frameworks with advance concepts (custom runners, mocking, subbing, custom rules)
 15. How to understand & use opensource Libraries 
 16. Selenium & UI testing library 
