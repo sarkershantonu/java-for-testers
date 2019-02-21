@@ -30,10 +30,15 @@ java course for testing
  - Polymorphism (Runtime, Compile time)
  - Overlading , Overriding, upper casting.
  - Constructor chaining
- 
-//7. Logics & conditions
-
-8. Exception Handling, custom exceptions, Logging basics. 
+7. Logics & conditions
+ - For Loop
+ - Do While Loop 
+ - While Loop
+ - If/else if/ sqitch
+ - ":?"  
+8. Exception Handling
+- How it works 
+- custom exceptions
 9. How to use JDK libraries
 - String
 - Date/LocalDate)
@@ -56,7 +61,7 @@ java course for testing
 - What is reflection API
 - How to use reflection api to write generic test cases
 13. Threading
-
+- Demon Thread
 14. Unit Testing & test frameworks with advance concepts (custom runners, mocking, subbing, custom rules)
 15. How to understand & use opensource Libraries 
 16. Selenium & UI testing library 
@@ -68,12 +73,21 @@ java course for testing
 - Matching 
 - Grouping
 - Literals 
-
-# Side Topics (on Demand)
-- I/O 
-- File Handling (txt, xls xlsx) 
-- Logging with different systems
-- JDBC with different DB
+22. Logging basics 
+- Java Logging 
+- Logback
+- slf4j
+23. I/O
+- File Handling 
+- CSV 
+- Office 97
+- Office 2007
+- Image
+24. JDBC 
+- MySql
+- Oracle 
+- SqlServer
+- MsAccess
 
 # Trello 
 - https://trello.com/b/nAycuMgl/java-for-testers
