@@ -33,3 +33,6 @@ D
 ---
 ABC => 4c1x5c1x5c1 =  4x5x5=100
 ABCD => 4c1x5c1x5c1x3c1 =  4x5x5x3=300
+
+
+Update : home work submission , asof 8 mar, no submission 
