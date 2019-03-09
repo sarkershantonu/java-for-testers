@@ -1,0 +1,34 @@
+What is framework ? 
+- Framework is a system/organization/chaing of steps to solve a problem easily(make life easy)
+
+Testing Framwork ? (UI specific) 
+- 
+- Language //mamun
+- Design /structure//mamun  
+- how it will run //sajib 
+- stability /error correction //rony 
+- Coding standars // rony
+- reusable //rony 
+- test data //rony 
+- reporting //rony 
+- Error & trace //rony 
+- Browser handling //tanvir 
+- CI testing //tasnia
+- Code manageent //tasnia
+- defect tracking //tasnia
+- summary reporting //tasnia - (kibana) 
+- screenshot //arafat 
+- DB support//arafat
+- API support//arafat
+- Testing structure //shantonu  
+
+------ Testing structure--- 
+
+
+# Study 
+V diagram of testing 
+- https://www.youtube.com/watch?v=JHDsfX1DR0M&list=UUsRm3XoRfowXePe6I-L65jA&index=41
+- Clean Coders : https://github.com/NileshGule/Ebooks/blob/master/The%20Clean%20Coder%20A%20Code%20of%20Conduct%20for%20Professional%20Programmers.pdf
+- SOLID : https://stackify.com/solid-design-principles/ 
+
+
