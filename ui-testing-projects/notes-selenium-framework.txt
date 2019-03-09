@@ -32,3 +32,18 @@ V diagram of testing
 - SOLID : https://stackify.com/solid-design-principles/ 
 
 
+--- 
+
+-- Tests //contains all unit/testNG tests
+--- Module// module wise tests
+--- Integratin //test togather for integration 
+--- Acceptance // user acceptance tests 
+-- Suits //all groupped tests 
+--- Regression// Main regressions suit(s)
+--- Releses//release based suits 
+--- Modules// module base suits 
+-- Steps // reusuable suits 
+-- Core // core packages 
+-- Util //test utils 
+-- ruuners //test runners
+-- 
