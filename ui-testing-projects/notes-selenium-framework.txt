@@ -26,8 +26,8 @@ Testing Framwork ? (UI specific)
 
 
 # Study 
-V diagram of testing 
-- https://www.youtube.com/watch?v=JHDsfX1DR0M&list=UUsRm3XoRfowXePe6I-L65jA&index=41
+- MUST : V diagram of testing : https://www.youtube.com/watch?v=JHDsfX1DR0M&list=UUsRm3XoRfowXePe6I-L65jA&index=41
+
 - Clean Coders : https://github.com/NileshGule/Ebooks/blob/master/The%20Clean%20Coder%20A%20Code%20of%20Conduct%20for%20Professional%20Programmers.pdf
 - SOLID : https://stackify.com/solid-design-principles/ 
 
