@@ -2,45 +2,68 @@
 
 java j2SE course for testers
 
-# Class Plan
+# Class Model 
 - 2 hours class with example
-- Question/answer 30 min
-- Home work discuess 30 min
+- Question/answer 15 min
+- Home work discuess 15 min
+- Each week there will be home work 
+- Total 6 months, 26 weeks, 26 classes.
+- Code/home work commit is must. 
 
-# Course/Class Topics
-A . Basic Java & History: 
-1. What is JAVA? & History . OOP & Principles , How OOP implemented in Java 
-2. Hello world how how it runs?Realitime JVM code execution monitoring. 
-3. JVM architecture, Java built-in tools & support, How code RUN inside JVM, GC algorithms. 
+# Course/Class Topics 
+
+# Basic Java & History: 
+- What is JAVA? & History 
+- OOP & Principles 
+ -How OOP implemented in Java 
+
+# First Code
+- Hello world how how it runs? 
+- Realitime JVM code execution monitoring. 
+
+# JVM architecture, 
+- How code RUN inside JVM
+- GC algorithms. 
+- Java Heap /Meta space
+- JIT 
+
+# JDK Tools & support
  - Jvisual VM
  - G1 GC/Concurrent GC
  - JMC
  - Jstate
+ - JVM TI
 
-4. Project Structure, Packaging, basic Java keywords & components. 
+# Java Project Structure
  - IDE
- - Runtime & Compilation
- - Dev Tools around Java
- - Packaging 
- - Basic Java Keywords & meaning
+ - JDK & JRE
+ - Runtime ,Compilation, components
+ - Packaging , class, jar, war
 
-5. OOP in Basics 
+# Java Keywords 
+- class
+- final
+- static
+
+# OOP in JAVA 
   - Class /object
   - Class members
   - OOP Principles 
-
-6. OOP in Action (advance & best practices), Java Object details, enamuration, autoboxing. 
+  - Java Object details, 
+  - enamuration
+  - autoboxing. 
  - Inheritance (why & how), object construction
  - Polymorphism (Runtime, Compile time)
  - Overlading , Overriding, upper casting.
  - Constructor chaining
 
-7. Logics & conditions
+# Logics & conditions
  - For Loop
  - Do While Loop 
  - While Loop
- - If/else if/ sqitch
- - ":?"  
+ - If/else if
+ - ":?"
+ - Switch
 
 # Java Exception Handling
 - How it works 
