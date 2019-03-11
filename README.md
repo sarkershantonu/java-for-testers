@@ -9,6 +9,8 @@ java j2SE course for testers
 - Each week there will be home work 
 - Total 6 months, 26 weeks, 26 classes.
 - Code/home work commit is must. 
+- One UI testing framework from scratch 
+- One Backend/API testing framework from scratch 
 
 # Course/Class Topics 
 
@@ -40,10 +42,15 @@ java j2SE course for testers
  - Runtime ,Compilation, components
  - Packaging , class, jar, war
 
-# Java Keywords 
-- class
-- final
-- static
+# Source Code Management 
+- Git/SVN basics
+- Github account and regular submission
+
+# Access Modifiers & Scopes
+- Public
+- Private
+- Protected
+- Default
 
 # OOP in JAVA 
   - Class /object
@@ -56,6 +63,11 @@ java j2SE course for testers
  - Polymorphism (Runtime, Compile time)
  - Overlading , Overriding, upper casting.
  - Constructor chaining
+
+# Java Keywords 
+- class
+- final
+- static
 
 # Logics & conditions
  - For Loop
@@ -112,10 +124,18 @@ java j2SE course for testers
 - Demon Thread & User thread 
 - Thread executor service 
 - Thread Local 
-
-# Source Code Management 
-- Git/SVN basics
  
+ # Java Testing & Libraries 
+- Unit Testing & test frameworks with advance concepts (custom runners, mocking, subbing, custom rules)
+- Junit 
+- Selenium & UI testing library 
+- RestAssured
+- Allure 
+- Ashot
+- Cucumber 
+- Mockito
+- Apache HTTP client 
+
 # Java Test, Build & Deployment 
 - Maven 
 - Gradle 
@@ -142,17 +162,6 @@ java j2SE course for testers
 - Office 97
 - Office 2007
 - Image
-
-# Java Testing & Libraries 
-- Unit Testing & test frameworks with advance concepts (custom runners, mocking, subbing, custom rules)
-- Junit 
-- Selenium & UI testing library 
-- RestAssured
-- Allure 
-- Ashot
-- Cucumber 
-- Mockito
-- Apache HTTP client 
 
 # Advance Topics for testing 
 - How to make a testing project using maven/gradle. 
