@@ -8,6 +8,7 @@ java j2SE course for testers
 - Home work discuess 30 min
 
 # Course/Class Topics
+A . Basic Java : 
 1. What is JAVA? & History . OOP & Principles , How OOP implemented in Java 
 2. Hello world how how it runs?Realitime JVM code execution monitoring. 
 3. JVM architecture, Java built-in tools & support, How code RUN inside JVM, GC algorithms. 
@@ -83,21 +84,33 @@ java j2SE course for testers
 - Matching 
 - Grouping
 - Literals 
-22. Logging basics 
-- Java Logging 
-- Logback
-- slf4j
-23. I/O
-- File Handling 
-- CSV 
-- Office 97
-- Office 2007
-- Image
+
+
+
+# Java JDBC
 24. JDBC 
 - MySql
 - Oracle 
 - SqlServer
 - MsAccess
+# Java Logging 
+- Logging basics 
+- Java Logging 
+- Logback
+- slf4j
+# Java IO
+- File Handling 
+- CSV 
+- Office 97
+- Office 2007
+- Image
+# Testing Libraries 
+- Junit 
+- Selenium 
+- RestAssured
+- Allure 
+- Ashot
+- Cucumber 
 
 # Trello 
 - https://trello.com/b/nAycuMgl/java-for-testers
