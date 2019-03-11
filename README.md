@@ -1,6 +1,6 @@
 # java-for-testers
 
-java course for testing
+java j2SE course for testers
 
 # Class Plan
 - 2 hours class with example
