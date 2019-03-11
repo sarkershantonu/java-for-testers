@@ -8,7 +8,7 @@ java j2SE course for testers
 - Home work discuess 30 min
 
 # Course/Class Topics
-A . Basic Java : 
+A . Basic Java & History: 
 1. What is JAVA? & History . OOP & Principles , How OOP implemented in Java 
 2. Hello world how how it runs?Realitime JVM code execution monitoring. 
 3. JVM architecture, Java built-in tools & support, How code RUN inside JVM, GC algorithms. 
@@ -50,7 +50,7 @@ A . Basic Java :
 - String
 - Date/LocalDate)
 
-9.1 Collection
+# Java Collection
 - What are those
 - How to use those
 - When & Why to use which one
@@ -58,15 +58,19 @@ A . Basic Java :
 - Interfaces 
 - Testing a collection
 
-10. Generics
+# Java Generics
 - Basic usages
 - Write generic code
-11. Annotations
+
+# Java Annotations
 - How it works
 - How to use it
-- How to implement
+- Pre processor 
+- Post Processor
+- AOP
+- IOC/DI
 
-12. Reflection
+#  Java Reflection API 
 - What is reflection API
 - How to use reflection api to write generic test cases
 
