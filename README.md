@@ -27,7 +27,7 @@ A . Basic Java & History:
 5. OOP in Basics 
   - Class /object
   - Class members
-  - Abstruction
+  - OOP Principles 
 
 6. OOP in Action (advance & best practices), Java Object details, enamuration, autoboxing. 
  - Inheritance (why & how), object construction
@@ -42,11 +42,21 @@ A . Basic Java & History:
  - If/else if/ sqitch
  - ":?"  
 
-8. Exception Handling
+# Java Exception Handling
 - How it works 
 - custom exceptions
+- Managed & Un managed Exceptions
 
-9. How to use JDK libraries
+# Java String 
+- Built In funcions 
+- String processing 
+
+# Regular Expression in Java
+- Matching 
+- Grouping
+- Literals 
+
+# Java Date Time
 - String
 - Date/LocalDate)
 
@@ -74,47 +84,58 @@ A . Basic Java & History:
 - What is reflection API
 - How to use reflection api to write generic test cases
 
-13. Threading
-- Demon Thread
+# Multi Threading
+- Multi Process & Multi Thread 
+- Demon Thread & User thread 
+- Thread executor service 
+- Thread Local 
 
-14. Unit Testing & test frameworks with advance concepts (custom runners, mocking, subbing, custom rules)
-15. How to understand & use opensource Libraries 
-16. Selenium & UI testing library 
-17. Restassure & HTTP client 
-18. Maven/Gradle project architecture, repository , life cycle. 
-19. Git/SVN basics
-20. Reporting for different stakeholders
-21. Regular Expression
-- Matching 
-- Grouping
-- Literals 
-
-
+# Source Code Management 
+- Git/SVN basics
+ 
+# Java Test, Build & Deployment 
+- Maven 
+- Gradle 
+- Jenkins 
+- Bash 
+- Sonatype/nexous 
+- Development lifecycle 
 
 # Java JDBC
-24. JDBC 
 - MySql
 - Oracle 
 - SqlServer
 - MsAccess
+
 # Java Logging 
 - Logging basics 
 - Java Logging 
 - Logback
 - slf4j
+
 # Java IO
 - File Handling 
 - CSV 
 - Office 97
 - Office 2007
 - Image
-# Testing Libraries 
+
+# Java Testing & Libraries 
+- Unit Testing & test frameworks with advance concepts (custom runners, mocking, subbing, custom rules)
 - Junit 
-- Selenium 
+- Selenium & UI testing library 
 - RestAssured
 - Allure 
 - Ashot
 - Cucumber 
+- Mockito
+- Apache HTTP client 
+
+# Advance Topics for testing 
+- How to make a testing project using maven/gradle. 
+- How to build framework from scratch. 
+- How to understand & use opensource Libraries
+- Reporting for different stakeholders
 
 # Trello 
 - https://trello.com/b/nAycuMgl/java-for-testers
