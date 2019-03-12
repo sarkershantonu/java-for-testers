@@ -18,5 +18,4 @@ public class App {
         }
         FileWriter.writeResultsToFile(testScenarios);
     }
-
 }

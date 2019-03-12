@@ -17,8 +17,8 @@ public class Tester {
                 "ORDERED".equals(request.getStatus()) ||
                 "CANCEL".equals(request.getStatus())) {
 
-            if (isValidFormat(request.getStartDate())) {
-                if (isValidFormat(request.getEndDate())) {
+            if (isValidDate(request.getStartDate())) {
+                if (isValidDate(request.getEndDate())) {
                     if (!isPast(request.getStartDate())) {
                         if (!isPast(request.getEndDate())) {
                             if (getDay(request.getEndDate()) >= getDay(request.getStartDate())) {//this was added after
@@ -46,8 +46,7 @@ public class Tester {
         return getDate(aDate).toEpochDay();
     }
 
-    private static boolean isValidFormat(String date) {
-        String pat = "{}";
+    private static boolean isValidDate(String date) {
         String[] parts = date.split("/");
         if (parts.length != 3 || parts[0].length() != 2 || parts[1].length() != 2 || parts[2].length() != 4) {
             return false;
@@ -61,7 +60,6 @@ public class Tester {
                             return false;
                         }
                     }
-
                 }
                 return true;
             } catch (DateTimeParseException e) {
