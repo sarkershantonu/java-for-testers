@@ -51,9 +51,9 @@ public class Scenario {
 
     @Override
     public String toString() {
-        return "Scenario : " +
+        return "\nScenario : " +
                 "id=" + id +
-                ", name='" + name  +
+                ", name=" + name  +
                 ", request=" + request.toString() +
                 ", result=" + result.toString() ;
     }

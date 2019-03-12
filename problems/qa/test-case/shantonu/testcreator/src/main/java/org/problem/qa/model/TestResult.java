@@ -7,7 +7,7 @@ public class TestResult {
     private String requestType;
     private String response;
     private Boolean success;
-
+    public TestResult(){}
     public TestResult(String id, String requestType, String response, Boolean success) {
         this.id = id;
         this.requestType = requestType;
@@ -17,7 +17,7 @@ public class TestResult {
 
     @Override
     public String toString() {
-        return "TestResult{" +
+        return "{" +
                 "id=" + id +
                 ", requestType='" + requestType + '\'' +
                 ", response='" + response + '\'' +

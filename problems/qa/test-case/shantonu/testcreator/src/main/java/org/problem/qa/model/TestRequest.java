@@ -48,7 +48,7 @@ public class TestRequest {
 
     @Override
     public String toString() {
-        return "TestRequest{" +
+        return "{" +
                 "startDate=" + startDate +
                 ", endDate=" + endDate +
                 ", status='" + status + '\'' +
