@@ -15,9 +15,10 @@ leapyear date
 invalid Format future date (MM/YYYY/DD)
 invalidCharacter : non neumeric 
 
-C -5
+C -5 : same as B
 
-D : valid : valid id, 
+D -3 : valid : 
+valid id, 
 invalid : 
 	invalid id, 
 	invalid character 
