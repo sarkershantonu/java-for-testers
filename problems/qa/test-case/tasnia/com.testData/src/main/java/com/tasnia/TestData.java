@@ -14,29 +14,29 @@ public class TestData {
 	
 	public static ArrayList <String> startDate = new ArrayList <String>() {
 		{
-			add("validdate");
-			add("chardate");
-			add("pastDate");
-			add("leapYearDate");
-			add("invalidFormat");
+			add("03/16/2019");
+			add("as*&20");
+			add("02/16/2019");
+			add("02/29/2004");
+			add("2004/21/01");
 		}
 	};
 		
 	public static ArrayList <String> endDate = new ArrayList <String>() {
 		{
-			add("validdate");
-			add("chardate");
-			add("pastDate");
-			add("leapYearDate");
-			add("invalidFormat");
+			add("03/17/2019");
+			add("as*&20");
+			add("02/16/2019");
+			add("02/29/2004");
+			add("2004/21/01");
 		}
 	};
 		
 	public static ArrayList <String> ids = new ArrayList <String>() {	
 		{
-			add("valid");
+			add("123");
 			add("%&##!!");
-			add("invalidchar");
+			add("invalidChar");
 		}
 	};
 }
