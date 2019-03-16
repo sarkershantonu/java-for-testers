@@ -10,9 +10,7 @@ import java.util.List;
 
 public class App {
     public static void main(String[] args) throws IOException {
-        List<TestRequest> requests = new ArrayList<>();
         List<Scenario> testScenarios = DataGenerator.getScenarios();
-
         for(Scenario scenario : testScenarios){
             scenario.setResult(Tester.getResult(scenario.getRequest()));
         }

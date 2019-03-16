@@ -24,7 +24,9 @@ public class Tester {
                             if (getDay(request.getEndDate()) >= getDay(request.getStartDate())) {//this was added after
                                 if (isNumeric(request.getId())) {
                                     if (isValid(request.getId())) {
-                                        result = true;
+                                        if (isNotCanceInDB(request.getId())) {
+                                            result = true;
+                                        }
                                     }
                                 }
                             }
@@ -33,19 +35,19 @@ public class Tester {
                 }
             }
         }
-
         return result ? getPassedResult(request.getId()) : getFailedResult(request.getId());
     }
-
+    private static boolean isNotCanceInDB(String id) {
+        return "123456".equals(id);
+    }
+    // cancel should be checked in DB for this ID
     private static boolean isValid(String id) {
         return "123456".equals(id);
     }
-
     private static long getDay(String aDate) {
         //return getDate(aDate).atStartOfDay(ZoneOffset.UTC).toInstant().toEpochMilli();
         return getDate(aDate).toEpochDay();
     }
-
     private static boolean isValidDate(String date) {
         String[] parts = date.split("/");
         if (parts.length != 3 || parts[0].length() != 2 || parts[1].length() != 2 || parts[2].length() != 4) {
@@ -54,12 +56,17 @@ public class Tester {
                 (Integer.valueOf(parts[1]) > 0 && Integer.valueOf(parts[1]) <= 31)) {
             try {
                 LocalDate date2 = LocalDate.parse(date, DateTimeFormatter.ofPattern(date_format));
-                if(!date2.isLeapYear()){
-                    if(date2.getMonthValue()==2){
-                        if(Integer.valueOf(parts[1]) > 28){
+                if (!date2.isLeapYear()) {
+                    if (date2.getMonthValue() == 2) {
+                        if (Integer.valueOf(parts[1]) > 28) {
                             return false;
                         }
                     }
+                }
+                if ((Integer.valueOf(parts[0]) == 4 || Integer.valueOf(parts[0]) == 6 || Integer.valueOf(parts[0]) == 9 || Integer.valueOf(parts[0]) == 11)
+                        && Integer.valueOf(parts[1]) > 30) {
+                    return false;
+
                 }
                 return true;
             } catch (DateTimeParseException e) {
