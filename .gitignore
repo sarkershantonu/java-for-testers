@@ -7,3 +7,4 @@ target/
 .class
 bin/
 obj/
+.DS_Store
