@@ -578,5 +578,3 @@ API Call : {status : !@#$%%^&*( startDate : 2004/21/01 endDate : as*&20 id : 123
 Service Returns :  { id : 123 requestType : Update response : event updated Unsuccessful success : false }
 API Call : {status : !@#$%%^&*( startDate : 2004/21/01 endDate : as*&20 id : %&##!! }
 Service Returns :  { id : %&##!! requestType : Update response : event updated Unsuccessful success : false }
-API Call : {status : !@#$%%^&*( startDate : 2004/21/01 endDate : as*&20 id : invalidChar }
-Service Returns :  { id : invalidC
