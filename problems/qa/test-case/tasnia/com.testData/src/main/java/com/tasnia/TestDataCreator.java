@@ -16,11 +16,11 @@ public class TestDataCreator extends TestData{
 						writer.write("API Call : {status : "+ status+" startDate : "+ 
 								sDate+" endDate : "+eDate+" id : "+ID+" }\n");
 						if((status.equals("PLANNING")|| status.equals("ORDERED"))&&
-								(sDate.equals("validdate")|| sDate.equals("leapYearDate")) 
-								&& (eDate.equals("validdate")|| eDate.equals("leapYearDate"))
-								&& ID.equals("valid")) {
+								(sDate.equals("03/16/2019")|| sDate.equals("02/29/2020")) 
+								&& (eDate.equals("03/17/2019")|| eDate.equals("02/29/2020")) 
+								&& ID.equals("123")) {
 							writer.write("Service Returns :  { id : "+ID+
-									" requestType : Update response : event updated successfully success : u001B31;true }\n");
+									" requestType : Update response : event updated successfully success : true }\n");
 						}
 						else {
 							writer.write("Service Returns :  { id : "+ID+
