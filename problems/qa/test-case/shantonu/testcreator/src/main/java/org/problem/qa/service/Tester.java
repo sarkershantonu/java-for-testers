@@ -16,7 +16,6 @@ public class Tester {
         if ("PLANNING".equals(request.getStatus()) ||
                 "ORDERED".equals(request.getStatus()) ||
                 "CANCEL".equals(request.getStatus())) {
-
             if (isValidDate(request.getStartDate())) {
                 if (isValidDate(request.getEndDate())) {
                     if (!isPast(request.getStartDate())) {
@@ -24,7 +23,7 @@ public class Tester {
                             if (getDay(request.getEndDate()) >= getDay(request.getStartDate())) {//this was added after
                                 if (isNumeric(request.getId())) {
                                     if (isValid(request.getId())) {
-                                        if (isNotCanceInDB(request.getId())) {
+                                        if (isNotCancelInDB(request.getId())) {
                                             result = true;
                                         }
                                     }
@@ -37,7 +36,7 @@ public class Tester {
         }
         return result ? getPassedResult(request.getId()) : getFailedResult(request.getId());
     }
-    private static boolean isNotCanceInDB(String id) {
+    private static boolean isNotCancelInDB(String id) {
         return "123456".equals(id);
     }
     // cancel should be checked in DB for this ID
