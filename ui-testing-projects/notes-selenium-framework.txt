@@ -50,4 +50,14 @@ Testing Framwork ? (UI specific)
 
 
 -------- 
+Main Parts 
+- Test Organizatio 
+- Log/trace 
+- Selenium Page Management 
+- Browser Management 
+----
+Design Requirement 
+1. Maintanable 
+2. Redable tests
+3. QUICK learning 
 
