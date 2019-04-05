@@ -33,3 +33,6 @@ ro=tasnia, tushar, sharmin
 1. How many type of scenarios will be present including all possible validations. Only count 1 test case from each type of validations. 
 2. list all possible requests and its responses. (input & output)
 3. Build a test generator tool
+
+# instructions : 
+- Create a folder & provide your solve
