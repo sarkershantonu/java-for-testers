@@ -68,6 +68,9 @@ java j2SE course for testers
 - class
 - final
 - static
+- null
+- return
+- 
 
 # Logics & conditions
  - For Loop
