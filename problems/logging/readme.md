@@ -1,0 +1,1 @@
+# Different Type of logging 
