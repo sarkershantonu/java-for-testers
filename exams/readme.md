@@ -19,3 +19,9 @@
     - Git & Github : 2hr : Multiple Choice + Lab
     - Complete Test Organization with Junit5 : 12hr : HandsOn
     - A complete CI/CD with Own Jenkins : 8 hr : HandsOn
+
+# Rules : 
+- MCQ : Online Live 
+- Topic Explanation : viva voice
+- Lab : Have to complete in Live interactive Session 
+- HandsOn : Have to complete in Single Long session , may not need to be interactive. 
