@@ -1,6 +1,7 @@
 # java-for-testers
-
-java j2SE course for testers
+- For new Java Developer
+- FOr New Java Automation Testers
+- java j2SE course for testers
 
 # Class Model 
 - 2 hours class with example
